@@ -1,0 +1,63 @@
+     h1
+      {
+        text-align: center;
+        text-decoration: underline;
+      }
+      .div1
+      {
+        background-color: rgb(109, 226, 255);
+        padding: 5px;
+        border: 2px solid black;
+        margin: 5px;
+        font-weight: bold;
+        float: left;
+      }
+      ul
+      {
+        clear: both;
+      }
+      h2
+      {
+        clear: both;
+        background-color: rgb(107, 154, 241);
+        float: right;
+      }
+      @media (min-width: 992px)
+      {
+        .div1
+        {
+          width: 30%;
+          height: 660px;
+          float: left;
+        }
+      }
+      @media (min-width: 768px) and (max-width: 991px)
+      {
+        #div1
+        {
+          width: 46%;
+          height: 600px;
+          float: left;
+          
+        }
+        #div2
+        {
+          width: 46%;
+          height: 600px;
+          float: left;
+        }
+        #div3
+        {
+          width: 95.2%;
+          height: 300px;
+          clear: both;
+          float: left;
+        }
+      }
+      @media (max-width: 767px) {
+        .div1{
+          clear: left;
+          width: 90%;
+          margin: 10px;
+        }
+      }
